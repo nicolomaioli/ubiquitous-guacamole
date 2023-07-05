@@ -1,21 +1,19 @@
 # Next Interview
 
-This blog has several issues, such as poor coding practices and questionable use
-of libraries.
+**The goal:** This is an opportunity to showcase your problem-solving skills and
+knowledge of Next.js in a "real-world" scenario. Start with identifying one or
+more issues, prioritize one, and attempt to fix it.
 
-The exercise has a time limit of 20 minutes and aims to showcase your
-problem-solving skills and framework knowledge in a real-world scenario. Please
-note that you don't need to fix everything!
+**Time limit:** 20 minutes.
 
 To get started:
 
 - Clone the repository.
 - Run `npm install`.
 - Open the code in your favorite editor or IDE.
-- Choose one problem to solve, and do your best.
-
-Feel free to refer to documentation, use Google, Chat GPT, Copilot, or any other
-tools you prefer.
+- There's some boiler-plate noise, the important files are:
+  - `src/pages/index.ts`: the landing page.
+  - `src/server/routers/blog.ts`: the backend code.
 
 Helpful commands:
 
@@ -26,3 +24,5 @@ npm start # Run the production build
 npm run db:push # Push changes to the database
 npm run db:studio # Run Prisma Studio
 ```
+
+Should you need it, the database schema can be found at `prisma/schema.prisma`.
